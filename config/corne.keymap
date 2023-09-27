@@ -1,5 +1,6 @@
 // Copyright (c) 2022 The ZMK Contributors
 // SPDX-License-Identifier: MIT
+// This should be used with US International keyboard layout for those who need diacritics or Ñ
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
