@@ -75,7 +75,7 @@
  &trans  &kp SQT     &kp RBKT   &kp RBRC   &kp RPAR   &trans         &kp BSLH   &kp UNDER  &kp PLUS   &kp PIPE  &kp QMARK   &trans
         //╰──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┴──────────╯
         //                      |          |          |          |   |          |          |   ALT    |
-                                |   &trans |   &trans     &trans      &trans   &trans     &kp LALT    |
+                                   &trans    &trans     &trans          &trans     &trans    &kp LALT  
         //                      ╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
             >;
         };
