@@ -97,7 +97,7 @@
             &trans   &kp LCTRL   &kp A   &kp S   &kp D   &kp F        &kp N   &kp M   &kp COMMA  &kp DOT  &kp ENTER      &trans
 
 
-              &kp LSHIFT    &kp ESC &kp SPACE                               &kp SPACE    &lt LAYBOTH TAB  &kp LALT
+              &kp LSHIFT    &lt LAYLEFT ESC &kp SPACE                               &kp SPACE    &lt LAYRIGHT TAB  &kp LALT
             >;
         };
     };
