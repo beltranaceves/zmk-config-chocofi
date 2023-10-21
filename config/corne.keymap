@@ -45,9 +45,9 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-            &trans   &kp Q   &kp W   &kp E   &kp R   &kp T        &kp Y   &kp U   &kp I   &kp O   &kp P              &trans
-            &trans   WHRML(A,     S,      D,     F)  &kp G        &kp H  WHRMR(J,     K,      L,     BSPC)           &trans
-            &trans   &kp Z   &kp X   &kp C   &kp V   &kp B        &kp N   &kp M   &kp COMMA  &kp DOT  &kp ENTER      &trans
+            &trans   &kp Q   &kp W   &kp E   &kp R   &kp T              &kp Y   &kp U   &kp I   &kp O   &ht RSHIFT  P     &trans
+            &trans   &ht LSHIFT A   WHRML(S,     D,    F)  &kp G        &kp H  WHRMR(J,     K,      L)   &kp BSPC   &trans
+            &trans   &kp Z   &kp X   &kp C   &kp V   &kp B               &kp N   &kp M   &kp COMMA  &kp DOT  &kp ENTER     &trans
 
 
               &kp LSHIFT    &lt LAYLEFT ESC &kp SPACE      &kp SPACE    &lt LAYRIGHT TAB  &kp LALT
