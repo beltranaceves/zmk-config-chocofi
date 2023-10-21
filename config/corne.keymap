@@ -8,8 +8,10 @@
 #include <dt-bindings/zmk/outputs.h>
 
 // Home row mods macro
-#define WHRML(k2,k3,k4) &ht LALT k2  &ht LGUI k3  &ht LCTRL k4
-#define WHRMR(k1,k2,k3) &ht RCTRL k1  &ht RGUI k2  &ht RALT k3
+// #define WHRML(k2,k3,k4) &ht LALT k2  &ht LGUI k3  &ht LCTRL k4
+// #define WHRMR(k1,k2,k3) &ht RCTRL k1  &ht RGUI k2  &ht RALT k3
+#define WHRML(k1, k2, k3, k4) &ht LSHIFT k1 &ht LALT k2  &ht LGUI k3  &ht LCTRL k4
+#define WHRMR(k1, k2, k3, k4) &ht RCTRL k1  &ht RGUI k2  &ht RALT k3 &ht RSHIFT k4
 
 #define LAYBASE 0
 #define LAYRIGHT 1
@@ -44,7 +46,7 @@
         default_layer {
             bindings = <
             &trans   &kp Q   &kp W   &kp E   &kp R   &kp T        &kp Y   &kp U   &kp I   &kp O   &kp P              &trans
-            &trans   &kp A  WHRML(S,      D,     F)  &kp G        &kp H  WHRMR(J,     K,      L)  &kp BSPC           &trans
+            &trans   WHRML(A,     S,      D,     F)  &kp G        &kp H  WHRMR(J,     K,      L,     BSPC)           &trans
             &trans   &kp Z   &kp X   &kp C   &kp V   &kp B        &kp N   &kp M   &kp COMMA  &kp DOT  &kp ENTER      &trans
 
 
