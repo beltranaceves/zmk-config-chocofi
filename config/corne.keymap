@@ -48,7 +48,7 @@
             &trans   &kp Z   &kp X   &kp C   &kp V   &kp B               &kp N   &kp M   &kp COMMA  &kp DOT  &kp ENTER     &trans
 
 
-              &kp LSHIFT    &lt LAYLEFT ESC &kp SPACE      &ht RSHIFT SPACE    &lt LAYRIGHT TAB  &kp LALT
+              &kp LSHIFT    &lt LAYLEFT ESC &ht LSHIFT SPACE      &ht RSHIFT SPACE    &lt LAYRIGHT TAB  &kp LALT
             >;
         };
 
