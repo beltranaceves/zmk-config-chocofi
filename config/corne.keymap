@@ -8,8 +8,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 // Home row mods macro
-#define WHRML(k1,k2,k3) &ht LALT  k1  &ht LGUI k2  &ht LCTRL k3
-#define WHRMR(k1,k2,k3) &ht RCTRL k1  &ht RGUI k2  &ht RALT  k3
+#define WHRML(k2,k3,k4) &ht LALT k2  &ht LGUI k3  &ht LCTRL k4
+#define WHRMR(k1,k2,k3) &ht RCTRL k1  &ht RGUI k2  &ht RALT k3
 
 #define LAYBASE 0
 #define LAYRIGHT 1
@@ -43,9 +43,9 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-            &trans   &kp Q   &kp W   &kp E   &kp R   &kp T              &kp Y   &kp U   &kp I   &kp O     &ht  P     &trans
-            &trans   &ht A   WHRML(S,     D,    F)   &kp G              &kp H  WHRMR(J,     K,      L)     &kp BSPC   &trans
-            &trans   &kp Z   &kp X   &kp C   &kp V   &kp B              &kp N   &kp M   &kp COMMA  &kp DOT  &kp ENTER     &trans
+            &trans   &kp Q   &kp W   &kp E   &kp R   &kp T              &kp Y   &kp U   &kp I   &kp O   &ht RSHIFT  P     &trans
+            &trans   &ht LSHIFT A   WHRML(S,     D,    F)  &kp G        &kp H  WHRMR(J,     K,      L)   &kp BSPC   &trans
+            &trans   &kp Z   &kp X   &kp C   &kp V   &kp B               &kp N   &kp M   &kp COMMA  &kp DOT  &kp ENTER     &trans
 
 
               &kp LSHIFT    &lt LAYLEFT ESC &ht LSHIFT SPACE      &ht RSHIFT SPACE    &lt LAYRIGHT TAB  &kp LALT
