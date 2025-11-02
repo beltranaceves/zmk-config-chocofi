@@ -23,7 +23,7 @@
     
         combo_space {
             timeout-ms = <50>;                // max delay between key presses (tweak if needed)
-            key-positions = <22 23>;    // positions of K and L keys in your matrix
+            key-positions = <0 1>;    // positions of K and L keys in your matrix
             bindings = <&kp SPACE>;           // output: spacebar
         };
     };
