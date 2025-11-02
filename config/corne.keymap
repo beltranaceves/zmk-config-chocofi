@@ -21,19 +21,19 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_space {
+        combo_space_1 {
             timeout-ms = <50>;                // max delay between key presses (tweak if needed)
             key-positions = <4 5>;    // positions of K and L keys in your matrix
             bindings = <&kp SPACE>;           // output: spacebar
         };
 
-        combo_space {
+        combo_space_2 {
             timeout-ms = <50>;                // max delay between key presses (tweak if needed)
             key-positions = <2 3>;    // positions of K and L keys in your matrix
             bindings = <&kp SPACE>;           // output: spacebar
         };
 
-        combo_space {
+        combo_space_3 {
             timeout-ms = <50>;                // max delay between key presses (tweak if needed)
             key-positions = <1 2>;    // positions of K and L keys in your matrix
             bindings = <&kp SPACE>;           // output: spacebar
