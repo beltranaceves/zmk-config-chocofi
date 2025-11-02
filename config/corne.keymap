@@ -26,18 +26,6 @@
             key-positions = <21 22>;    // positions of K and L keys in your matrix
             bindings = <&kp SPACE>;           // output: spacebar
         };
-
-        combo_space_2 {
-            timeout-ms = <50>;                // max delay between key presses (tweak if needed)
-            key-positions = <22 23>;    // positions of K and L keys in your matrix
-            bindings = <&kp SPACE>;           // output: spacebar
-        };
-
-        combo_space_3 {
-            timeout-ms = <50>;                // max delay between key presses (tweak if needed)
-            key-positions = <20 21>;    // positions of K and L keys in your matrix
-            bindings = <&kp SPACE>;           // output: spacebar
-        };
     };
 
     behaviors {
